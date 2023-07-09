@@ -1,0 +1,28 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.Container {
+    background-color: yellow;
+    padding: 10px;
+    margin: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.Box {
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    background-color: green;
+    color: white;
+    flex: 1;
+}
+
+.Bos-5 {
+    flex: 3;
+}
